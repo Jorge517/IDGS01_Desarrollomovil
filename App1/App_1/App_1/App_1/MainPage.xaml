@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_1.MainPage">
+
+    <StackLayout>
+
+        <Frame BackgroundColor="#6E33FF" Padding="8">
+            <Label Text="UTEQ" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Image Source="https://imagenes.milenio.com/7rLsGj1tHeLJWPE-XEgS_ItoTL8=/958x596/https://www.milenio.com/uploads/media/2021/03/22/la-vida-de-homero-simpson.jpg" />
+        <Label Text="La aplicación consiste en un contador que iniciara el seguimiento una vez el usuario oprima el boton."
+         HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+         Padding="1" LineHeight="1" TextColor="WhiteSmoke"/>
+        <Button Text="Contador de boton" Clicked="Button_Clicked" BorderWidth="2" CornerRadius="15" FontSize="15" HorizontalOptions="Center" Padding="7" ></Button>
+        <Button Text="Reiniciar" Clicked="Reset_Clicked" BorderWidth="2" CornerRadius="15" FontSize="15" HorizontalOptions="Center" Padding="7" ></Button>
+
+    </StackLayout>
+
+</ContentPage>
